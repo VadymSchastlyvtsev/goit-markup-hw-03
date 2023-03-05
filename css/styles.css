@@ -1,0 +1,219 @@
+:root {
+  --text-color: #434455;
+  --dark-text: #2e2f42;
+  --primary-brand: #4d5ae5;
+  --accent-text: #e7e9fc;
+  --presed-state: #404bbf;
+  --success-text: #31d0aa;
+  --subtle-text: #8e8f99;
+  --light-text: #f4f4fd;
+  --modal-overlay: rgba(46, 47, 66, 0.4);
+  --hero-background: rgba(46, 47, 66, 0.7);
+}
+
+/* Body */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+
+/* Header */
+
+/* logo */
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--primary-brand);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-item-studio {
+  color: var(--dark-text);
+}
+
+/* nav */
+.nav-item {
+  color: var(--dark-text);
+  font-style: normal;
+  font-weight: 500;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--presed-state);
+}
+/* Contact information */
+.address {
+  font-style: normal;
+}
+.address-mail {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--presed-state);
+}
+.address-tel {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--presed-state);
+}
+
+/* Start Index.html main */
+
+/* Hero page */
+.hero {
+  background-color: var(--dark-text);
+}
+.hero-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+/* values of company (section 1) */
+.values-title {
+  color: #ffffff;
+}
+.secondary-title {
+  color: var(--dark-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.values-item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Work section 2 */
+.primary-title {
+  color: var(--dark-text);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* Our Team */
+.team {
+  background-color: var(--light-text);
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-card-title {
+  color: var(--dark-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.team-card-text {
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* Finish Index.html main */
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: var(--accent-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo-footer-studio {
+  line-height: 1.17;
+  color: var(--light-text);
+}
+
+/* Portfolio */
+
+/* Main */
+/* Buttons list */
+.portfolio-btn {
+  background-color: var(--light-text);
+  color: var(--primary-brand);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--presed-state);
+  color: #ffffff;
+}
+
+/* examples works */
+.project-link-title {
+  color: var(--dark-text);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.projects-link-text {
+  color: var(--text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
