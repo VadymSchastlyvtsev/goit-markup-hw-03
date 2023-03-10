@@ -57,11 +57,15 @@ body {
 
 /* Header */
 
-.header-main {
-  display: flex;
+.header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--accent-text);
+}
+
+.header-main {
+  display: flex;
+ 
   align-items: center;
 }
 
@@ -199,16 +203,14 @@ body {
 }
 
 .values-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+
   padding: 0px;
   gap: 8px;
   width: 264px;
 }
 
 .values-item-title {
-  margin: 0;
+  margin-bottom: 8px;
 }
 
 .secondary-title {
@@ -273,7 +275,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 32px;
+ 
   gap: 32px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -285,13 +287,8 @@ img {
 }
 
 .team-card {
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 8px;
-margin-top: 32px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .team-card-title {
@@ -302,6 +299,7 @@ margin-top: 32px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   
 }
 .team-card-text {
@@ -354,14 +352,14 @@ justify-content: center;
 padding: 0px;
 gap: 24px;
 margin: 0 auto;
-width: 587px;
+
 height: 48px;
 
 }
 
 .portfolio-btn {
   padding: 12px 24px;
-min-width: 69px;
+  min-width: 69px;
   background-color: var(--light-text);
   color: var(--primary-brand);
   font-family: "Roboto", sans-serif;
@@ -373,15 +371,19 @@ min-width: 69px;
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-border: 0;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border: 1px solid var(--accent-text);
+  
 border-radius: 4px;
-border-color: transparent;
+
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--presed-state);
   color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* examples works */
@@ -402,22 +404,20 @@ border-color: transparent;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 0;
+
+  margin-bottom: 8px;
 }
 
 .projects-link-text {
   color: var(--text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
+
 }
 .project-item-text {
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
+
 padding: 32px 16px;
-gap: 8px;
+
 border: 1px solid #E7E9FC;
 border-top: none;
 
