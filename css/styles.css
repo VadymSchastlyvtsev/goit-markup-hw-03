@@ -194,7 +194,17 @@ body {
 /* values of company (section 1) */
 
 .values-title {
-  color: #ffffff;
+  position: absolute;
+  word-spacing: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+
 }
 
 .values-list {
@@ -347,13 +357,13 @@ padding-bottom: 32px;
 .portfolio-btn-list {
   display: flex;
 flex-direction: row;
-align-items: flex-start;
+
 justify-content: center;
 padding: 0px;
 gap: 24px;
-margin: 0 auto;
 
-height: 48px;
+
+
 
 }
 
@@ -371,8 +381,7 @@ height: 48px;
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
   border: 1px solid var(--accent-text);
   
 border-radius: 4px;
@@ -390,11 +399,13 @@ border-radius: 4px;
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  width: calc ((100% - 24 * 2) / 3);
+  
   gap: 48px 24px;
   margin-top: 72px;
 }
-
+ .project-list-item {
+  width: calc((100% - 24px * 2) / 3);
+ }
 
 .project-link-title {
   color: var(--dark-text);
